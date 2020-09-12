@@ -2,29 +2,29 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="20591" started-at="2020-09-12T13:57:05Z" finished-at="2020-09-12T13:57:26Z">
+  <suite name="Suite" duration-ms="20572" started-at="2020-09-12T13:59:20Z" finished-at="2020-09-12T13:59:41Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="20591" started-at="2020-09-12T13:57:05Z" finished-at="2020-09-12T13:57:26Z">
+    <test name="Test" duration-ms="20572" started-at="2020-09-12T13:59:20Z" finished-at="2020-09-12T13:59:41Z">
       <class name="test.NewTest">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.NewTest@f6c48ac]" name="openBrowser" duration-ms="10035" started-at="2020-09-12T13:57:05Z" finished-at="2020-09-12T13:57:15Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.NewTest@f6c48ac]" name="openBrowser" duration-ms="10375" started-at="2020-09-12T13:59:20Z" finished-at="2020-09-12T13:59:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.NewTest@f6c48ac]" name="closeBrowser" is-config="true" duration-ms="1442" started-at="2020-09-12T13:57:23Z" finished-at="2020-09-12T13:57:25Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.NewTest@f6c48ac]" name="closeBrowser" is-config="true" duration-ms="1412" started-at="2020-09-12T13:59:38Z" finished-at="2020-09-12T13:59:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.NewTest1@13deb50e]" name="closeBrowser" is-config="true" duration-ms="1125" started-at="2020-09-12T13:57:25Z" finished-at="2020-09-12T13:57:26Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.NewTest1@13deb50e]" name="closeBrowser" is-config="true" duration-ms="1239" started-at="2020-09-12T13:59:40Z" finished-at="2020-09-12T13:59:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- test.NewTest -->
       <class name="test.NewTest1">
-        <test-method status="PASS" signature="f()[pri:0, instance:test.NewTest1@13deb50e]" name="f" duration-ms="7897" started-at="2020-09-12T13:57:15Z" finished-at="2020-09-12T13:57:23Z">
+        <test-method status="PASS" signature="openFB()[pri:0, instance:test.NewTest1@13deb50e]" name="openFB" duration-ms="7453" started-at="2020-09-12T13:59:31Z" finished-at="2020-09-12T13:59:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
+        </test-method> <!-- openFB -->
       </class> <!-- test.NewTest1 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

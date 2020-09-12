@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
+import setup.ReadData;
 import setup.SuperClass;
 
 public class NewTest1 extends SuperClass {
