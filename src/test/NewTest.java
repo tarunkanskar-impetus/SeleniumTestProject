@@ -4,6 +4,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 
 import org.openqa.selenium.By;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 import setup.SuperClass;
@@ -23,4 +24,9 @@ public class NewTest extends SuperClass{
 	  getdriver().findElement(By.linkText("Gmail")).click();
   }
   
+  @AfterTest
+  void closeBrowser()
+  {
+	  getdriver().quit();
+  }
 }

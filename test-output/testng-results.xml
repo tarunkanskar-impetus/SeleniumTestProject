@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10904" started-at="2020-09-12T13:38:20Z" finished-at="2020-09-12T13:38:30Z">
+  <suite name="Suite" duration-ms="20591" started-at="2020-09-12T13:57:05Z" finished-at="2020-09-12T13:57:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10904" started-at="2020-09-12T13:38:20Z" finished-at="2020-09-12T13:38:30Z">
+    <test name="Test" duration-ms="20591" started-at="2020-09-12T13:57:05Z" finished-at="2020-09-12T13:57:26Z">
       <class name="test.NewTest">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.NewTest@343f4d3d]" name="openBrowser" duration-ms="10553" started-at="2020-09-12T13:38:20Z" finished-at="2020-09-12T13:38:30Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.NewTest@f6c48ac]" name="openBrowser" duration-ms="10035" started-at="2020-09-12T13:57:05Z" finished-at="2020-09-12T13:57:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.NewTest@f6c48ac]" name="closeBrowser" is-config="true" duration-ms="1442" started-at="2020-09-12T13:57:23Z" finished-at="2020-09-12T13:57:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.NewTest1@13deb50e]" name="closeBrowser" is-config="true" duration-ms="1125" started-at="2020-09-12T13:57:25Z" finished-at="2020-09-12T13:57:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
       </class> <!-- test.NewTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="test.NewTest1">
+        <test-method status="PASS" signature="f()[pri:0, instance:test.NewTest1@13deb50e]" name="f" duration-ms="7897" started-at="2020-09-12T13:57:15Z" finished-at="2020-09-12T13:57:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- test.NewTest1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
