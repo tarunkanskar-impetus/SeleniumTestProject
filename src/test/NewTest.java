@@ -3,6 +3,7 @@ package test;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
+import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
 import setup.SuperClass;
@@ -17,5 +18,9 @@ public class NewTest extends SuperClass{
 	  System.out.println(rd.getData("baseURL"));
 	  getdriver().get(rd.getData("baseURL"));
 	  System.out.println(rd.getExcelData(0, 0));
+	  System.out.println(rd.getData("id"));
+	  System.out.println(rd.getData("enterText"));
+	  getdriver().findElement(By.linkText("Gmail")).click();
   }
+  
 }
